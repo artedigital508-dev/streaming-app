@@ -1,22 +1,56 @@
-[
-  {
-    "name": "RTVE Teledeporte (España)",
-    "logo": "https://wikimedia.org",
-    "url": "https://akamaized.net"
-  },
-  {
-    "name": "NASA TV (Ciencia en Vivo)",
-    "logo": "https://wikimedia.org",
-    "url": "https://akamaihd.net"
-  },
-  {
-    "name": "Canal 24 Horas RTVE (Noticias)",
-    "logo": "https://wikimedia.org",
-    "url": "https://akamaized.net"
-  },
-  {
-    "name": "Video de Prueba (MP4 Loop)",
-    "logo": "https://wikimedia.org",
-    "url": "https://googleapis.com"
-  }
-]
+{
+  "version": "2.0.0",
+  "updatecat": "2026-10-26T18:00:00Z",
+  "provider": "LiveStream TV Studio Network",
+  "notice": "Catálogo unificado para Android TV & Móvil: En Vivo, Películas y Deportes.",
+  "channels": [
+    {
+      "id": "live-tdp",
+      "name": "RTVE Teledeporte (España)",
+      "contentKind": "live",
+      "category": "Deportes",
+      "year": 2026,
+      "rating": "TV-G",
+      "duration": "0",
+      "resolution": "HD",
+      "stream": "https://akamaized.net",
+      "backdropUrl": "https://wikimedia.org"
+    },
+    {
+      "id": "live-nasa",
+      "name": "NASA TV (Ciencia en Vivo)",
+      "contentKind": "live",
+      "category": "Ciencia",
+      "year": 2026,
+      "rating": "TV-G",
+      "duration": "0",
+      "resolution": "HD",
+      "stream": "https://akamaihd.net",
+      "backdropUrl": "https://wikimedia.org"
+    },
+    {
+      "id": "live-24h",
+      "name": "Canal 24 Horas RTVE (Noticias)",
+      "contentKind": "live",
+      "category": "Noticias",
+      "year": 2026,
+      "rating": "TV-G",
+      "duration": "0",
+      "resolution": "HD",
+      "stream": "https://akamaized.net",
+      "backdropUrl": "https://wikimedia.org"
+    },
+    {
+      "id": "vod-test",
+      "name": "Video de Prueba (MP4 Loop)",
+      "contentKind": "movie",
+      "category": "Pruebas",
+      "year": 2026,
+      "rating": "TV-G",
+      "duration": "10m",
+      "resolution": "Full HD",
+      "stream": "https://googleapis.com",
+      "backdropUrl": "https://wikimedia.org"
+    }
+  ]
+}
