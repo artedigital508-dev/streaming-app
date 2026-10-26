@@ -1,0 +1,22 @@
+[
+  {
+    "name": "RTVE Teledeporte (España)",
+    "logo": "https://wikimedia.org",
+    "url": "https://akamaized.net"
+  },
+  {
+    "name": "NASA TV (Ciencia en Vivo)",
+    "logo": "https://wikimedia.org",
+    "url": "https://akamaihd.net"
+  },
+  {
+    "name": "Canal 24 Horas RTVE (Noticias)",
+    "logo": "https://wikimedia.org",
+    "url": "https://akamaized.net"
+  },
+  {
+    "name": "Video de Prueba (MP4 Loop)",
+    "logo": "https://wikimedia.org",
+    "url": "https://googleapis.com"
+  }
+]
